@@ -15,7 +15,7 @@ public class TestRunner extends Base_Class {
         PageObjectManager.getPageObjectManager().getCheckoutPage().checkoutPage();
         PageObjectManager.getPageObjectManager().getAddressPage().addressPage();
         System.out.println("Test completed successfully....");
-        System.out.println("Thank you!!!");
+        System.out.println("Thank you!!!");       
 
     }
 }
