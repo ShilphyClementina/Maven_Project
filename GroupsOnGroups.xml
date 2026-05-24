@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Shilphy/Testing/Automation testing - Greens technologies/Work Space/IPT_Java_Project/src/test/java/org/testngrunner/Grouping.java">
+        <groups>
+            <define name="Movable">
+                <include name="ANIMAL"></include>
+                <include name="BIRD"></include>
+            </define>
+            <define name="Immovable">
+                <include name="TREES"></include>
+            </define>
+            <run>
+                <!--include name="Immovable"></include-->
+                <exclude name="Immovable"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.testngrunner.Grouping"></class>
+        </classes>
+    </test>
+</suite>
