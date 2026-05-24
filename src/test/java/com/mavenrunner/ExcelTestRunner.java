@@ -1,4 +1,4 @@
-package com.runner;
+package com.mavenrunner;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

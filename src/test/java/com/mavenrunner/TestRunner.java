@@ -1,4 +1,4 @@
-package com.runner;
+package com.mavenrunner;
 
 import PageObjectManager.PageObjectManager;
 import com.base.Base_Class;

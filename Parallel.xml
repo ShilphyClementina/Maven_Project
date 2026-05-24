@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="All Test Suite">
+    <test parallel="methods"
+          name="D:/Shilphy/Testing/Automation testing - Greens technologies/Work Space/IPT_Java_Project/src/test/java/org/testngrunner/CrossBrowserTesting.java">
+        <classes>
+            <class name="org.testngrunner.CrossBrowserTesting"></class>
+        </classes>
+    </test>
+</suite>
