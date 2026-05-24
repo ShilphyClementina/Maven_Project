@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Shilphy/Testing/Automation testing - Greens technologies/Work Space/IPT_Java_Project/src/test/java/org/testngrunner/DependsOnMethods.java">
+        <classes>
+            <class name="org.testngrunner.DependsOnMethods"></class>
+        </classes>
+    </test>
+</suite>
